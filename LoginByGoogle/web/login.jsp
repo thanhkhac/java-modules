@@ -121,6 +121,7 @@
     
     
     <body>
+       
         <a href="https://accounts.google.com/o/oauth2/auth?scope=email&redirect_uri=http://localhost:8080/LoginByGoogle/LoginGoogleHandler&response_type=code&client_id=336633668274-j5saoeii0745maki4cejdlkh5o2gl9jp.apps.googleusercontent.com&approval_prompt=force">
                     <button class="gsi-material-button">
             <div class="gsi-material-button-state"></div>

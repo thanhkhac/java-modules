@@ -1,0 +1,6 @@
+package doctopdf;
+
+
+class MultipagePrintDocument {
+
+}
