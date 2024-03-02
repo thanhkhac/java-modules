@@ -19,9 +19,9 @@ import java.util.logging.Logger;
 import myutils.UploadFile;
 
 @WebServlet(name = "UploadFileServlet", urlPatterns = {"/uploadFile"})
-@MultipartConfig(fileSizeThreshold = 1024 * 1024 * 10, // 10MB
-        maxFileSize = 1024 * 1024 * 200, // 20MB
-        maxRequestSize = 1024 * 1024 * 200) // 50MB
+@MultipartConfig(fileSizeThreshold = 1024 * 1024 * 100, // 10MB
+        maxFileSize = 1024 * 1024 * 500, // 20MB
+        maxRequestSize = 1024 * 1024 * 500) // 50MB
 public class UploadFileServlet extends HttpServlet {
 
     public static final String SAVE_DIRECTORY = "uploads";
