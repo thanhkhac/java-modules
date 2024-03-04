@@ -38,9 +38,9 @@ public class UploadFileServlet extends HttpServlet {
             throws ServletException, IOException {
         String appPath = request.getServletContext().getRealPath("");
         String fullSavePath = appPath + File.separator + SAVE_DIRECTORY;
-        String sourceSavePath = fullSavePath.replace(File.separator + "build", "");
+        String backUpPath = fullSavePath.replace(File.separator + "build", "");
         ArrayList<String> savePaths = new ArrayList<>();
-        savePaths.add(sourceSavePath);
+        savePaths.add(backUpPath);
         savePaths.add(fullSavePath);
         
         //Đây sẽ là đường dẫn cần lấy và lưu vào database
